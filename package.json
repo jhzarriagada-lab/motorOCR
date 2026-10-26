@@ -1,0 +1,14 @@
+{
+  "name": "motor-ocr-scan",
+  "version": "1.0.0",
+  "description": "Microservicio privado de OCR en Bun para procesar boletas en PDF usando poppler-utils y tesseract-ocr nativos",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
